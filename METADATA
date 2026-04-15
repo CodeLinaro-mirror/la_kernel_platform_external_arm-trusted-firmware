@@ -8,11 +8,12 @@ third_party {
     type: HOMEPAGE
     value: "https://developer.trustedfirmware.org/dashboard/view/6/"
   }
-  url {
-    type: GIT
+  identifier {
+    type: "Git"
     value: "https://github.com/ARM-software/arm-trusted-firmware.git"
+    version: "c158878249f1bd930906ebd744b90d3f2a8265f1"
+    closest_version: "v2.5"
   }
-  version: "v2.5+"
   last_upgrade_date { year: 2021 month: 9 day: 10 }
   license_type: NOTICE
 }
